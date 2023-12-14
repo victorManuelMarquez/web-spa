@@ -1,0 +1,10 @@
+<?php
+session_start();
+require_once('./config.php');
+require(PAGE_TOP_HALF);
+require(PAGE_NAVBAR);
+require(PAGE_HEADER);
+require(PAGE_MAIN_CONTENT);
+require(PAGE_FOOTER);
+require(PAGE_BOTTOM_HALF);
+?>
